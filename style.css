@@ -1,0 +1,420 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.main{
+    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/41c789f0-7df5-4219-94c6-c66fe500590a/3149e5eb-4660-4e3d-9e65-b1e615229c64/IN-en-20240513-popsignuptwoweeks-perspective_alpha_website_small.jpg);
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size:  max(1200px, 100vw);
+    border-bottom: 7px solid grey;
+}
+
+.main .box{
+    width: 100%;
+    height: 100%;
+    opacity: .56;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+
+nav{
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 80vw;
+    margin: auto;
+    height: 92px;
+    padding:  24px 32px;
+}
+
+nav img{
+    width: 148px;
+    height: 40px;
+    position: relative;
+    z-index: 10;
+}
+
+
+.selector{
+    position: relative;
+    z-index: 10;
+    background-color: transparent;
+    height: 32px;
+    width: 126.4px;
+    color: white;
+    border-radius: 5px;
+}
+
+nav button{
+    position: relative;
+    z-index: 10;
+    height: 32px;
+    width: 76.9px;
+    margin-left: 24px;
+    background-color: rgb(229, 9, 20);
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+
+.Content-container{
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: relative;
+    z-index: 10;
+    text-align: center;
+    margin: auto;
+}
+
+.firstline{
+    font-weight: bolder;
+    font-size: 25.2px;
+}
+
+.firstpara{
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-top: 16px;
+}
+
+.form-h3{
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.content{
+    height: 238.8px;
+    width: 907.28px;
+}
+
+.input{
+    position: relative;
+    display: inline-flex;
+    flex-wrap: wrap;
+    vertical-align: text-top;
+}
+
+.landing-page-first-input-logo{
+    font-size: .75rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: rgba(255, 255, 255, .7);
+}
+
+.firstinputdiv{
+    font-size: 10rem;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+}
+
+#firstinput{
+    line-height: 1.5;
+    font-size: 1rem;
+    height: 56px;
+    width: 378.35px;
+    background-color: transparent;
+    border-color: rgb(235, 57, 66);
+    border-radius: 5px;
+    color: #fff;
+}
+
+.landing-page-first-input-logo{
+    position: absolute;
+}
+
+.input{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    margin-top: 15px;
+    
+}
+
+#firstinput::placeholder{
+    padding-left: 20px;
+    color: rgba(255, 255, 255);
+}
+
+.firstbutton{
+    margin-left: .5rem;
+    height: 58px;
+    width: 209.25px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(229, 9, 20);
+    color: #fff;
+    padding: .75rem 1.5rem;
+    width: auto;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.second{
+    box-sizing: border-box;
+    width: 100%;
+    height: 582.25px;
+    padding: 72px 0;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border-bottom: 10px gray solid;
+
+
+}
+
+.secdiv{
+    height: 438.24px;
+    width: 1170px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.secheading h2{
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.secheading p{
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.firsttv{
+    position: relative;
+    z-index: 1;
+}
+
+.firstvid{
+    position: absolute;
+    z-index: -1;
+    overflow: hidden;
+    top: 20%;
+    left: 13%;
+    width: 550px;
+}
+
+.firstvidimg{
+    width: 100%;
+}
+
+.third{
+    box-sizing: border-box;
+    width: 100%;
+    height: 582.25px;
+    padding: 72px 0;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border-bottom: gray 5px solid;
+
+}
+
+.thirddiv{
+    height: 438.24px;
+    width: 1170px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.thirdheading h2{
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.thirdheading p{
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.sectv{
+    position: relative;
+}
+
+.secvid{
+    position: absolute;
+    overflow: hidden;
+    top: 20%;
+    left: 13%;
+    width: 550px;
+}
+
+.secdiv2{
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    position: absolute;
+    height: 103px;
+    min-width: 15rem;
+    width: 60%;
+    border: 2px solid rgba(128, 128, 128, .7);
+    left: 20%;
+    bottom: 8%;
+    border-radius: .75rem;
+    background-color: #000;
+    padding: 12px 8px;
+    text-align: left;
+
+}
+
+.inner-img img{
+    height: 84px;
+}
+
+.inner-card-text{
+    text-align: left;
+    margin-left: 20px;
+    width: 168px;
+    height: 38.4px;
+}
+
+.inner-card-heading{
+    font-weight: 500;
+    font-size: 1rem;
+    color: #fff;
+}
+
+.downloading{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #0071eb;
+
+}
+
+.animation{
+    height: 50px;
+    width: 50px;
+    background: url(https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif);
+    background-size: 100%;
+}
+
+.secvid{
+    position: absolute;
+    z-index: -1;
+    overflow: hidden;
+    top:10%;
+    left: 20%;
+    object-fit: contain;
+    overflow: c;
+}
+
+.sectv{
+    position: relative;
+    z-index: 1;
+}
+
+.secvid video{
+    width: 70%;
+}
+
+.fourth{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 930px;
+    width: 100%;
+    padding-top: 72px;
+    padding-bottom: 72px;
+    box-sizing: border-box;
+    background-color: #000;
+}
+
+.fourth-content{
+    box-sizing: border-box;
+    resize: auto;
+    height: 800px;
+    width: 1170px;
+    margin-left: 174.600px;
+    margin-right: 174.600px;
+}
+
+
+
+.inner-box h2{
+    color: #fff;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 900;
+
+}
+
+.accordion-item{
+    margin-bottom: 0px;
+}
+
+.accordion-header{
+    display: flex;
+    align-items: center;
+    background-color: rgb(45,45,45);
+    padding: 10px;
+    height: 80px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-top: 5px;
+}
+
+.accordion-header:hover + .accordion-content{
+    max-height: 100px ;
+    background-color: rgb(45,45,45);
+    padding: 1.5rem;
+}
+
+.accordion-content{
+    transition: all 0.25s cubic-bezier(0.5, 0, 0.1, 1)  ;
+    max-height: 0;
+    overflow: hidden;
+    color: #fff;
+    
+
+}
+
+.accordion{
+    margin-top: 15px;
+}
+
+
+
+.footer{
+    border-top: gray 5px solid;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    height: 200px;
+    background-color: #000;
+    width: 100%;
+    color: #fff;
+}
+
